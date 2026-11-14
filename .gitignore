@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+admin-panel/node_modules/
+
+# Environment variables - JANGAN PERNAH di-push
+.env
+admin-panel/.env
+*.env
+
+# Backup files
+*.bak
+*.bak.*
+
+# OS files
+.DS_Store
+Thumbs.db
